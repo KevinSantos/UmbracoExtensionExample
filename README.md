@@ -93,6 +93,7 @@ public class ImportTreeController : TreeController {
    protected override TreeNodeCollection GetTreeNodes(string id, FormDataCollection queryStrings) {...}
 }
 ```
+## Fim Web API
 
 ## backoffice
 * Existem dois tipos de views no backoffice:
@@ -122,6 +123,7 @@ angular.module("umbraco").controller("Import.ImportEditAthleteController", funct
     ...
  });
 ```
+### Fim importTree
 
 ### Dashboards
 * View que aparece quando se clica na extensão. Não é necessário estar numa pasta chamada Dashboards. Para avisar o Umbraco da nossa Dashboard é preciso acrescentar o seguinte código a /config/Dashboard.config:
@@ -142,6 +144,7 @@ angular.module("umbraco").controller("Import.ImportEditAthleteController", funct
 
 ![](https://snag.gy/kGXu8K.jpg)
 * _control_ é a absolute path até à nossa view.
+### Fim Dashboards
 
 ### import.resource.js
 * Ficheiro que com os métodos chamados pelos nossos controllers e que, por sua vez, chamam os métodos da nossa Web API.
