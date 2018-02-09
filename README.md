@@ -70,10 +70,103 @@ public class ImportApiController : UmbracoAuthorizedJsonController {
 [Tree("import", "importTree", "Content for Approval")]
 [PluginController("Import")]
 public class ImportTreeController : TreeController {
-   protected override MenuItemCollection GetMenuForNode(string id, FormDataCollection queryStrings) {...}
+   protected override MenuItemCollection GetMenuForNode(string id, FormDataCollection queryStrings) {
+      var menu = new MenuItemCollection();
+      //submenus da root
+      if (id == Constants.System.Root.ToInvariantString()) {
+         // FORMA 1 DE CRIAR MENUS:
+         // ao criar um menuItem ActionNew, o umbraco espera que haja um ficheiro edit.html na pasta backoffice.
+         // ao criar um menuItem ActionDelete, é esperado um delete.html
+         menu.Items.Add<CreateChildEntity, ActionNew>(ApplicationContext.Services.TextService.Localize(ActionNew.Instance.Alias));
+         
+         //FORMA 2 DE CRIAR MENUS:
+         // fica a espera de um editAthlete.html
+         var item = new MenuItem("editAthlete", "Edit");
+         item.Icon = "edit";
+         item.AdditionalData.Add("ParentCategoryId", id);
+         item.NavigateToRoute("import/importTree/editAthlete/"+id);
+         menu.Items.Add(item);
+      }
+      return menu
+   }
+   
    protected override TreeNodeCollection GetTreeNodes(string id, FormDataCollection queryStrings) {...}
 }
 ```
 
+## backoffice
+* Existem dois tipos de views no backoffice:
+   * As que estão associados à árvore. Estas devem estar numa pasta com o mesmo _alias_ dado à árvore na class **ImportTreeController**.
+   * Dashboards
 
+![](https://snag.gy/xWGm29.jpg)
+### importTree
+* Vou exemplificar com a view **editAthlete**:
+#### editAthlete.html
+* É criado um form associado ao controller **Import.ImportEditAthleteController**.
+```html
+<form ng-controller="Import.ImportEditAthleteController"
+     ng-show="loaded"
+     ng-submit="edit()"
+     val-form-manager>
+   ...
+```
 
+#### editAthlete.controller.js
+* Controller recebe importResource, (criado em import.resource.js, já falo dele de seguida) e chama um dos seus métodos para obter informação acerca do atleta que se quer editar.
+```js
+angular.module("umbraco").controller("Import.ImportEditAthleteController", function ($scope, $routeParams, $timeout, importResource, notificationsService, navigationService) {
+   importResource.getById($routeParams.id).then(function (response) {
+        $scope.athlete = response.data;
+    });
+    ...
+ });
+```
+
+### Dashboards
+* View que aparece quando se clica na extensão. Não é necessário estar numa pasta chamada Dashboards. Para avisar o Umbraco da nossa Dashboard é preciso acrescentar o seguinte código a /config/Dashboard.config:
+```xml
+<section alias="StartupImportDashboardSection">
+   <areas>
+      <area>import</area>
+   </areas>
+   <tab caption="Dashboard">
+      <control>/app_plugins/import/backoffice/dashboard/importdashboard.html</control>
+   </tab>
+</section>
+```
+
+* O _alias_ da secção é irrelevante (até agora...)
+* O valor da _area_ é o alias da nossa extensao
+* A _caption_ é a frase que aparece na tab da nossa dashboard. Uma dashboard pode ter várias tabs:
+
+![](https://snag.gy/kGXu8K.jpg)
+* _control_ é a absolute path até à nossa view.
+
+### import.resource.js
+* Ficheiro que com os métodos chamados pelos nossos controllers e que, por sua vez, chamam os métodos da nossa Web API.
+```js
+angular.module("umbraco.resources")
+    .factory("importResource", function ($http) {
+        return {
+            getById: function (id) {
+                return $http.get("backoffice/Import/ImportApi/GetById?id=" + id);
+            },
+            ...
+        }
+    });
+```
+
+### package.manifest
+* Ficheiro onde se avisa o Umbraco quais os ficheiros que devem pertencer à extensão. As views não são necessárias, mas o CSS pode ser posto aqui, ou importado directamente pela view.
+```json
+{
+  javascript: [
+    "~/App_Plugins/Import/backoffice/dashboard/import.controller.js",
+    "~/App_Plugins/Import/backoffice/importTree/editAthlete.controller.js",
+    "~/App_Plugins/Import/backoffice/importTree/deleteAthlete.controller.js",
+
+    "~/App_Plugins/Import/import.resource.js"
+  ]
+}
+```
