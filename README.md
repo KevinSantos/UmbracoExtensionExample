@@ -2,6 +2,16 @@
 
 ### Nota: A minha extensão de teste chama-se _Import_. A maioria dos nomes dos ficheiros segue uma nomenclatura definida pelo Umbraco.
 
+### Links Uteis
+* [Custom Sections - A Whole New Umbraco](https://www.youtube.com/watch?v=NY0OXGaCWVU&list=PLLYO0Qmbv5pvGjpI6Cyg3mVBoYtG_LK63&index=19)
+* [Database & Api - Custom Data Needs A Home](https://www.youtube.com/watch?v=PXuIXptLZ5U&list=PLLYO0Qmbv5pvGjpI6Cyg3mVBoYtG_LK63&index=20)
+* [Custom Tree In Umbraco - Structuring Your Content](https://www.youtube.com/watch?v=DbYNzEozj2U&index=21&list=PLLYO0Qmbv5pvGjpI6Cyg3mVBoYtG_LK63)
+* [Finishing Up - Finishing the project](https://www.youtube.com/watch?v=BCTcXPZFZns&list=PLLYO0Qmbv5pvGjpI6Cyg3mVBoYtG_LK63&index=22)
+* [BUILDING AN UMBRACO 7 BACKOFFICE EXTENSION – PART I](https://blogit.create.pt/andresantos/2015/11/16/building-an-umbraco-7-backoffice-extension-part-i/)
+* [Tutorial de AngularJS](https://docs.angularjs.org/tutorial/step_00)
+* [API de AngularJS do Umbraco](http://umbraco.github.io/Belle/#/api)
+* [API de C# do Umbraco](https://our.umbraco.org/apidocs/csharp/api/Umbraco.Core.html)
+
 ## Estrutura
 
 1. Criar pasta para extensão na directoria ~/App_Plugins: 
