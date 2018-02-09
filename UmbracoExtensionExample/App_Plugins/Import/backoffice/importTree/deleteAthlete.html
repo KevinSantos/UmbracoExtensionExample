@@ -1,0 +1,49 @@
+﻿<form ng-controller="Import.DeleteAthleteController"
+      ng-show="loaded"
+      ng-submit="delete()"
+      val-form-manager>
+
+
+    
+    <div class="umb-panel umb-editor-wrapper -no-footer">
+        <div class="umb-editor-header umb-panel-header">
+            <div class="umb-panel-header-content-wrapper">
+                <div class="umb-panel-header-content">
+                    <div class="umb-panel-header-name" style="color:red; font-weight:bold;">Are you sure you want to delete this athlete?</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="umb-panel-body umb-scrollable row-fluid">
+            <div class="tab-content form-horizontal">
+                <div class="umb-pane">
+
+                    <umb-control-group label="Id" description="Id of the athlete">
+                        <p>{{athlete.Id}}</p>
+                    </umb-control-group>
+
+                    <umb-control-group label="Name" description="Name of the athlete">
+                        <p>{{athlete.Name}}</p>
+                    </umb-control-group>
+
+                    <umb-control-group label="Nickname" description="Nickname of the athlete">
+                        <p>{{athlete.Nickname}}</p>
+                    </umb-control-group>
+
+                    <div class="umb-tab-buttons" detect-fold>
+                        <div class="btn-group">
+                            <button type="submit" data-hotkey="ctrl+s" class="btn btn-warning">
+                                Delete
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</form>

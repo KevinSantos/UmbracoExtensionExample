@@ -1,0 +1,69 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wednesday, January 31, 2018 3:24:54 PM
+   Source : c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\
+     Dest : C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\Umbraco_Client\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\
+	                   7	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Application\
+	                  12	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Application\JQuery\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\CodeArea\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\ContextMenu\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\ContextMenu\Css\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\ContextMenu\Js\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Datepicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Datepicker\Aqua\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\DateTimePicker\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\DateTimePicker\Images\
+	                  10	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Dialogs\
+	                   7	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Editors\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\FileUploader\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\FileUploader\Js\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\FolderBrowser\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\FolderBrowser\Css\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\FolderBrowser\Js\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Images\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\MacroContainer\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\MaskedInput\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Menuicon\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Menuicon\Images\
+	                   5	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Modal\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Panel\
+	                   6	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Panel\Images\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Preview\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\ProgressBar\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\ProgressBar\Images\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Propertypane\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Propertypane\Images\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\PunyCode\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Scrollingmenu\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Splitbutton\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Splitbutton\Images\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Tablesorting\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Tablesorting\img\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Tabview\
+	                   7	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Tabview\Images\
+	                  10	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Tree\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Tree\Themes\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Tree\Themes\Default\
+	                  10	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Tree\Themes\Umbraco\
+	                  14	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco_Client\Ui\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        44         0        44         0         0         0
+   Files :       143         0       143         0         0         0
+   Bytes :    1.26 m         0    1.26 m         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Wednesday, January 31, 2018 3:24:54 PM
+

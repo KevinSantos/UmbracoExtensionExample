@@ -1,0 +1,331 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wednesday, January 31, 2018 3:24:48 PM
+   Source : c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\
+     Dest : C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\Umbraco\
+
+    Files : *.*
+	    
+Exc Files : UI.xml
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  10	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Actions\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\assets\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\assets\css\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\assets\fonts\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\assets\fonts\helveticons\
+	                  32	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\assets\fonts\lato\
+	                   9	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\assets\fonts\opensans\
+	                   7	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\assets\img\
+	                   5	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\assets\img\application\
+	                  11	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\assets\img\applicationIcons\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\assets\img\forms\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\assets\img\uploader\
+	                  11	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\assets\less\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Config\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Config\Create\
+	                  20	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Config\Lang\
+	    Older     		  137472	en_us.xml  0%   95%  100%  
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Controls\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Controls\Tree\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Create\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Dashboard\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Developer\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Developer\Macros\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Developer\Packages\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Developer\RelationTypes\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Developer\RelationTypes\Images\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Developer\RelationTypes\TreeMenu\
+	                   5	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Developer\Xslt\
+	                  20	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Dialogs\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Install\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Install\Views\
+	                  26	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Js\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\ace-builds\
+	                   8	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\ace-builds\src-min-noconflict\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\ace-builds\src-min-noconflict\snippets\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\ace-razor-mode\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\ace-razor-mode\theme\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\angular\
+	                  14	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\angular\1.1.5\
+	                 287	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\angular\1.1.5\i18n\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\angular-bootstrap\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\angular-dynamic-locale\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\angular-local-storage\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\bootstrap\
+	                   7	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\bootstrap\css\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\bootstrap\img\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\bootstrap\js\
+	                  41	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\bootstrap\less\
+	                   8	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\bootstrap\less\tests\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\bootstrap-social\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\bootstrap-tabdrop\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\clipboard\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\addon\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\addon\dialog\
+	                   6	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\addon\edit\
+	                   5	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\addon\search\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\addon\selection\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\lib\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\mode\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\mode\css\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\mode\htmlmixed\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\mode\javascript\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\mode\razor\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\codemirror\mode\xml\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\cssparser\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\datetimepicker\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\font-awesome\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\font-awesome\css\
+	                   5	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\font-awesome\fonts\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\jquery\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\jquery-migrate\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\jquery-ui\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\jquery-ui-touch-punch\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\less\
+	                   5	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\markdown\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\moment\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\ng-file-upload\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\rgrove-lazyload\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\slider\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\slider\js\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\spectrum\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\
+	                  16	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\langs\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\advlist\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\anchor\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\autolink\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\autoresize\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\autosave\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\bbcode\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\charmap\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\code\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\codemirror\
+	                  16	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\codemirror\langs\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\codesample\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\codesample\css\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\colorpicker\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\contextmenu\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\directionality\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\emoticons\
+	                  16	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\emoticons\img\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\fullpage\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\fullscreen\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\hr\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\image\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\imagetools\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\importcss\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\insertdatetime\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\legacyoutput\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\link\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\lists\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\media\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\nonbreaking\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\noneditable\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\pagebreak\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\paste\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\preview\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\print\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\save\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\searchreplace\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\spellchecker\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\tabfocus\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\table\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\template\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\textcolor\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\textpattern\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\toc\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualblocks\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualblocks\css\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualchars\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\plugins\wordcount\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\skins\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\
+	                   9	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\fonts\
+	                   5	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\img\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\themes\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\themes\inlite\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\themes\modern\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\tinymce\themes\umbraco\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\typeahead.js\
+	                   5	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\umbraco\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\lib\underscore\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Masterpages\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Members\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\PartialViewMacros\
+	                  20	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\PartialViewMacros\Templates\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Plugins\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Plugins\Tinymce3\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\preview\
+	                  11	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\preview\editors\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Search\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Settings\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Settings\Modals\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Settings\Stylesheet\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Settings\Stylesheet\Property\
+	                   5	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Translation\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\
+	                  15	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\dialogs\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\dialogs\content\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\dialogs\template\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\notifications\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\contentpicker\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\compositions\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\editorpicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\editorsettings\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\propertysettings\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\copy\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\embed\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\help\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\iconpicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\insert\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\insertfield\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\itempicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\linkpicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\macropicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\mediaPicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\mediatypepicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\membergrouppicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\memberpicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\move\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\nodepermissions\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\querybuilder\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\sectionpicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\templatesections\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\treepicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\user\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\usergrouppicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\userpicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\common\overlays\ysod\
+	                  29	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\application\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\buttons\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\content\
+	                  10	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\editor\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\editor\subheader\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\html\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\html\umb-box\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\imaging\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\notifications\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\overlays\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\property\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\tabs\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\tree\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\upload\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\components\users\
+	                  11	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\content\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\contentblueprints\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\dashboard\
+	                   6	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\dashboard\default\
+	                   6	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\dashboard\developer\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\dashboard\forms\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\dashboard\media\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\dashboard\members\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\dashboard\settings\
+	                   5	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\datatypes\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\directives\
+	                   8	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\directives\_obsolete\
+	                   8	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\documenttypes\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\documenttypes\views\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\documenttypes\views\design\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\documenttypes\views\listview\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\documenttypes\views\permissions\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\documenttypes\views\templates\
+	                   9	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\install\
+	                   6	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\media\
+	                   6	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\mediatypes\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\mediatypes\views\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\mediatypes\views\design\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\mediatypes\views\listview\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\mediatypes\views\permissions\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\member\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\membertypes\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\membertypes\views\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\membertypes\views\design\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\packager\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\packager\views\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\partialviewmacros\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\partialviews\
+	                  17	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\prevalueeditors\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\boolean\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\changepassword\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\checkboxlist\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\colorpicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\contentpicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\datepicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\decimal\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\dropdown\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\email\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\entitypicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\fileupload\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\folderbrowser\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\googlemaps\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\grid\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\grid\config\
+	                   5	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\grid\dialogs\
+	                   6	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\grid\editors\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\imagecropper\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\integer\
+	                   6	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\listview\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\listview\layouts\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\listview\layouts\grid\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\listview\layouts\list\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\macrocontainer\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\markdowneditor\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\mediapicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\membergrouppicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\membergroups\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\memberpicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\multipletextbox\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\nestedcontent\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\radiobuttons\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\readonlyvalue\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\relatedlinks\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\rte\
+	                   4	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\slider\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\tags\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\templatepicker\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\test\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\textarea\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\textbox\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\ultrasimple\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\urllist\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\propertyeditors\validationtest\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\scripts\
+	                   2	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\templates\
+	                   3	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\users\
+	                   0	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\users\views\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\users\views\groups\
+	                   1	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Views\users\views\users\
+	                  15	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Webservices\
+	                   5	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Xslt\
+	                  15	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Xslt\Templates\
+	                  15	c:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\packages\UmbracoCms.7.7.9\UmbracoFiles\Umbraco\Xslt\Templates\Schema2\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :       299         0       299         0         0         0
+   Files :      1276         1      1275         0         0         0
+   Bytes :   18.50 m   134.2 k   18.37 m         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             8086588 Bytes/sec.
+   Speed :             462.718 MegaBytes/min.
+   Ended : Wednesday, January 31, 2018 3:24:49 PM
+

@@ -1,0 +1,39 @@
+﻿
+<form ng-controller="Import.ImportEditAthleteController"
+     ng-show="loaded"
+     ng-submit="edit()"
+     val-form-manager>
+
+    <umb-panel>
+        <umb-header>
+            <umb-content-name placeholder="@placeholders_entername" ng-model="athlete.Name" />
+        </umb-header>
+
+        <div class="umb-panel-body umb-scrollable row-fluid">
+            <div class="tab-content form-horizontal" style="padding-bottom: 90px">
+                <div class="umb-pane">
+
+                    <umb-control-group label="Id" description="Id of the athlete">
+                        <input type="number" ng-model="athlete.Id" required />
+                    </umb-control-group>
+
+                    <umb-control-group label="Name" description="Name of the athlete">
+                        <input type="text" ng-model="athlete.Name" required />
+                    </umb-control-group>
+
+                    <umb-control-group label="Nickname" description="Nickname of the athlete">
+                        <input type="text" ng-model="athlete.Nickname" required />
+                    </umb-control-group>
+
+
+                    <div class="umb-tab-buttons" detect-fold>
+                        <div class="btn-group">
+                            <button type="submit" data-hotkey="ctrl+s" class="btn btn-success">
+                                Save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</form>

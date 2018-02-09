@@ -1,0 +1,30 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+
+
+@{
+    @*Layout = "Master.cshtml";
+        var backgroundImage = Model.Content.HeroBackgroundImage != null ? Model.Content.HeroBackgroundImage.Url : String.Empty;*@
+}
+
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            @foreach (var prop in ViewBag.Props) {
+                <th>@prop.Name</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var athlete in ViewBag.Athletes) {
+            <tr>
+                <td>@athlete.Id</td>
+                <td>@athlete.Name</td>
+                <td>@athlete.Nickname</td>
+            </tr>
+        }
+    </tbody>
+
+</table>

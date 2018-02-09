@@ -1,0 +1,79 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wednesday, January 31, 2018 3:23:46 PM
+   Source : C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\bin\
+     Dest : C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\App_Data\NuGetBackup\20180131-152346\bin\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  22	C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\bin\
+	    New File  		  110592	businesslogic.dll  0%  100%  
+	    New File  		  491520	cms.dll  0%   26%   53%   80%  100%  
+	    New File  		   50688	controls.dll  0%  100%  
+	    New File  		   24576	interfaces.dll  0%  100%  
+	    New File  		  276480	log4net.dll  0%   47%   94%  100%  
+	    New File  		   11264	Microsoft.ApplicationBlocks.Data.dll  0%  100%  
+	    New File  		   21504	SQLCE4Umbraco.dll  0%  100%  
+	    New File  		  470696	System.Data.SqlServerCe.dll  0%   27%   55%   83%  100%  
+	    New File  		  240808	System.Data.SqlServerCe.Entity.dll  0%   54%  100%  
+	    New File  		   56832	Terratype.dll  0%  100%  
+	    New File  		   14848	Terratype.GoogleMapsV3.dll  0%  100%  
+	    New File  		  192512	TidyNet.dll  0%   68%  100%  
+	    New File  		   2.7 m	Umbraco.Core.dll  0%   18%   36%   55%   73%   92%  100%  
+	    New File  		   43008	umbraco.DataLayer.dll  0%  100%  
+	    New File  		   2.2 m	umbraco.dll  0%   22%   44%   67%   89%  100%  
+	    New File  		  368640	umbraco.editorControls.dll  0%   35%   71%  100%  
+	    New File  		  126464	umbraco.MacroEngines.dll  0%  100%  
+	    New File  		  103936	Umbraco.ModelsBuilder.dll  0%  100%  
+	    New File  		   36352	umbraco.providers.dll  0%  100%  
+	    New File  		   33792	Umbraco.SampleSite.dll  0%  100%  
+	    New File  		   40960	Umbraco.Web.UI.dll  0%  100%  
+	    New File  		   68096	UmbracoExamine.dll  0%  100%  
+	  New Dir          6	C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\bin\amd64\
+	    New File  		  464040	sqlceca40.dll  0%   28%   56%   84%  100%  
+	    New File  		  107176	sqlcecompact40.dll  0%  100%  
+	    New File  		  155304	sqlceer40EN.dll  0%   84%  100%  
+	    New File  		   81576	sqlceme40.dll  0%  100%  
+	    New File  		  909992	sqlceqp40.dll  0%   28%   57%   86%  100%  
+	    New File  		  562344	sqlcese40.dll  0%   46%   93%  100%  
+	  New Dir          3	C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\bin\amd64\Microsoft.VC90.CRT\
+	    New File  		    1862	Microsoft.VC90.CRT.manifest  0%  100%  
+	    New File  		  624448	msvcr90.dll  0%   41%   83%  100%  
+	    New File  		     406	README_ENU.txt  0%  100%  
+	  New Dir          0	C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\bin\App_Data\
+	  New Dir          0	C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\bin\App_Data\NuGetBackup\
+	  New Dir          0	C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\bin\App_Data\NuGetBackup\20180131-140912\
+	  New Dir          0	C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\bin\App_Data\NuGetBackup\20180131-140912\bin\
+	  New Dir          0	C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\bin\roslyn\
+	  New Dir          6	C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\bin\x86\
+	    New File  		  350376	sqlceca40.dll  0%   37%   74%  100%  
+	    New File  		   91304	sqlcecompact40.dll  0%  100%  
+	    New File  		  154792	sqlceer40EN.dll  0%   84%  100%  
+	    New File  		   67752	sqlceme40.dll  0%  100%  
+	    New File  		  643240	sqlceqp40.dll  0%   40%   81%  100%  
+	    New File  		  406696	sqlcese40.dll  0%   32%   64%   96%  100%  
+	  New Dir          3	C:\users\world it\documents\visual studio 2015\Projects\UmbracoExtensionExample\UmbracoExtensionExample\bin\x86\Microsoft.VC90.CRT\
+	    New File  		    1860	Microsoft.VC90.CRT.manifest  0%  100%  
+	    New File  		  653120	msvcr90.dll  0%   40%   80%  100%  
+	    New File  		     406	README_ENU.txt  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        10         9         1         0         0         0
+   Files :        40        40         0         0         0         0
+   Bytes :   12.62 m   12.62 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :            20550518 Bytes/sec.
+   Speed :            1175.910 MegaBytes/min.
+   Ended : Wednesday, January 31, 2018 3:23:47 PM
+

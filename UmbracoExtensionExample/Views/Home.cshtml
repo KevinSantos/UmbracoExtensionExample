@@ -1,0 +1,16 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+
+
+@{
+    @*Layout = "Master.cshtml";
+        var backgroundImage = Model.Content.HeroBackgroundImage != null ? Model.Content.HeroBackgroundImage.Url : String.Empty;*@
+}
+
+
+
+<h1>Partial View Athlete Table</h1>
+
+
+
+@Html.Action("Index", "AthleteTable")

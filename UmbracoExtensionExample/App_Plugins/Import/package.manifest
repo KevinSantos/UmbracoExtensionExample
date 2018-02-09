@@ -1,0 +1,9 @@
+﻿{
+  javascript: [
+    "~/App_Plugins/Import/backoffice/dashboard/import.controller.js",
+    "~/App_Plugins/Import/backoffice/importTree/editAthlete.controller.js",
+    "~/App_Plugins/Import/backoffice/importTree/deleteAthlete.controller.js",
+
+    "~/App_Plugins/Import/import.resource.js"
+  ]
+}

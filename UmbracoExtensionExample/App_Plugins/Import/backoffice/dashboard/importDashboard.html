@@ -1,0 +1,140 @@
+﻿<!--<script type="text/javascript" src="Js/jszip.js"></script>
+<script type="text/javascript" src="Js/cpexcel.js"></script>
+<script type="text/javascript" src="Js/xlsx.full.min.js"></script>-->
+
+<link rel="stylesheet" href="assets/css/edit.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.10.8/xlsx.full.min.js">
+</script>
+
+<script>
+    var lastFileEvent;
+    $("body").on('change', '#myfile', function (e) {
+        if ($("input.file").val() == "") {
+            return;
+        }
+
+        lastFileEvent = e.target.files[0];
+
+        //reset_form_element($('#myfile'));
+        e.preventDefault();
+    });
+
+    function reset_form_element(e) {
+        e.wrap('<form>').parent('form').trigger('reset');
+        e.unwrap();
+    }
+
+    function preview() {
+
+        var reader = new FileReader();
+
+        reader.onload = function () {
+
+            var fileData = reader.result;
+            var wb = XLSX.read(fileData, { type: 'binary' });
+
+            //$scope.html = "";
+            //var htmlText = "";
+            //wb.SheetNames.forEach(function (sheetName) {
+            //    var htmlstr = XLSX.write(wb, { sheet: sheetName, type: 'binary', bookType: 'html', header: '' });
+            //    //$scope.html += htmlstr;
+            //});
+            ////$scope.html = htmlText.slice(0, htmlText.indexOf("<title>")) + htmlText.slice(htmlText.indexOf("</title>"));
+
+            var result = {};
+            wb.SheetNames.forEach(function (sheetName) {
+                result = XLSX.utils.sheet_to_json(wb.Sheets[sheetName], { header: 0 });
+            });
+
+            if (!result.length)
+                return;
+
+            //create table with values from xlsx file
+            var htmlText = "<div class='umb-table'><div class='umb-table-head'><div class='umb-table-row'>";
+            for (var key in result[0]) {
+                htmlText += "<div class='umb-table-cell not-fixed'>" + key + "</div>";
+            }
+            htmlText += "<div class='umb-table-cell'>Check</div></div></div><div class='umb-table-body'>"
+
+            for (var i = 0; i < result.length; i++) {
+                var obj = result[i];
+                htmlText += "<div class='umb-table-row'>";
+
+                var id;
+                for (var key in obj) {
+                    if (key === "Id")
+                        id = obj[key];
+                    htmlText += "<div class='umb-table-cell not-fixed'>" + obj[key] + "</div>";
+                }
+                htmlText += "<div class='umb-table-cell not-fixed'>";
+                //htmlText += '<div class="checkbox"></div>';
+                htmlText += "<input type='checkbox' id='checkbox_" + id + "' checked/>";
+                htmlText += "</div></div>";
+            }
+            htmlText += "</div></div>";
+
+            $('#htmlTable').html(htmlText);
+
+            //console.log($scope.htmlTable);
+            //console.log(JSON.stringify(result,2,2));
+
+            //wb.SheetNames.forEach(function (sheetName) {
+            //    var rowObj = XLSX.utils.sheet_to_row_object_array(wb.Sheets[sheetName]);
+            //    var jsonObj = JSON.stringify(rowObj);
+            //    //console.log(jsonObj)
+            //})
+        };
+
+        reader.readAsBinaryString(lastFileEvent);
+    };
+
+</script>
+
+<form ng-controller="Import.ImportController"
+      ng-show="loaded"
+      ng-submit="save()"
+      val-form-manager>
+
+    <umb-panel>
+
+        <umb-header style="background-color:#413659; color:white">
+
+            <h3 style="padding-top:20px;padding-left: 20px;">Import your xlsx file</h3>
+
+        </umb-header>
+
+        <div class="umb-panel-body umb-scrollable row-fluid">
+            <div class="tab-content form-horizontal">
+                <div class="umb-pane">
+
+                    <umb-control-group label="Excel" description="File with table">
+                        <input id="myfile" type="file"/>
+                    </umb-control-group>
+                    
+                    <umb-control-group label="Preview" description="Preview imported table">
+                        <div id="htmlTable" ng-model="htmlTable">
+                            <div class="umb-node-preview-add">Empty Table, import first.</div>
+                        </div>
+                    </umb-control-group>
+
+                    <div class="umb-tab-buttons" detect-fold>
+                        <div class="btn-group">
+                            <a class="btn" onclick="preview()" ng-click="preview()">
+                                Preview
+                            </a>
+                        </div>
+                        <div class="btn-group" ng-if="canSave">
+                            <button type="submit" data-hotkey="ctrl+s" class="btn btn-success">
+                                Save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</form>
