@@ -183,3 +183,7 @@ angular.module("umbraco.resources")
   ]
 }
 ```
+
+# Fim
+* Parabéns por teres completado este tutorial. É habita dar uma batata aos _internautas_ nestes casos mas prefiro isto:
+![](https://images.huffingtonpost.com/2015-08-21-1440138242-5865807-bazingasheldon-thumb.jpg)
