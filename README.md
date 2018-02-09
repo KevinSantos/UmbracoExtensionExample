@@ -44,3 +44,36 @@ public class ImportSection : IApplication{}
 </area>
 ```
 
+## Web API
+### ImportApiController.cs
+* Classe com os nossos métodos. De notar que o Umbraco usa o ORM [Petapoco](https://github.com/CollaboratingPlatypus/PetaPoco/wiki). É feita a ligação à nossa extensão usando o atributo _PluginController_.
+```c#
+[PluginController("Import")]
+public class ImportApiController : UmbracoAuthorizedJsonController {
+   public Athlete GetById(int id){...}
+   ...
+}
+```
+
+### ImportTreeController.cs
+* Classe que cria a árvore que se pode ver no Umbraco:
+
+![](https://snag.gy/jwYXch.jpg)
+* Novamente, é feita a ligação com a extensão através do atributo _PluginController_. São também definidas as propriedades da árvore:
+   * _alias_ da extensão
+   * _alias_ da árvore
+   * _titulo_ da root node
+* Esta classe possui 2 métodos:
+   * __GetMenuForNode__ - Define as acções possíveis para cada tipo de node (criar, editar, remover, regar...)
+   * __GetTreeNodes__ - Cria a estrutura da árvore
+```c#
+[Tree("import", "importTree", "Content for Approval")]
+[PluginController("Import")]
+public class ImportTreeController : TreeController {
+   protected override MenuItemCollection GetMenuForNode(string id, FormDataCollection queryStrings) {...}
+   protected override TreeNodeCollection GetTreeNodes(string id, FormDataCollection queryStrings) {...}
+}
+```
+
+
+
