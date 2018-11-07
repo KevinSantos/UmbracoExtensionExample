@@ -54,6 +54,11 @@ public class ImportSection : IApplication{}
 </area>
 ```
 
+* Adicionar ao ficheiro /config/applications.config:
+```
+<add alias="import" name="Import" icon="icon-road color-blue" sortOrder="15" />
+```
+
 ## Web API
 ### ImportApiController.cs
 * Classe com os nossos métodos. De notar que o Umbraco usa o ORM [Petapoco](https://github.com/CollaboratingPlatypus/PetaPoco/wiki). É feita a ligação à nossa extensão usando o atributo _PluginController_.
